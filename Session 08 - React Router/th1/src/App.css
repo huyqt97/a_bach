@@ -1,0 +1,27 @@
+.nav{
+  padding: 10px 30px ;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(59, 126, 219);
+
+}
+.nav img {
+  width: 250px;
+  height: 70px;
+  object-fit: cover;
+  object-position: 0px -20px;
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+  font-size: 24px;
+}
+.nav li{
+  padding: 0px 20px;
+  cursor: pointer;
+}
+.nav li a{
+  color: aliceblue !important;
+  text-decoration: none;
+}
